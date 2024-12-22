@@ -147,5 +147,6 @@ int main() {
     return 0;
 }
 
+//To launch the file type these two lines in terminal
 //g++ Solution.cpp -o solution
 //./solution
