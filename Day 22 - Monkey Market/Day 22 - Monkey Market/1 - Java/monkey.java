@@ -15,13 +15,16 @@ Youa are trading information for bananas the monkeys offer their price which is 
  Question 2
  We are asked essentially to find a sequence of 4 numbers that ends in the highest number e the final number of bananas they buyer has
 
- The secret for instance 123 has a value of 3 as the ones place meaning the monkey is willing to pay 3 bananas
+ For instance we have secrenumber 123 it has a value of 3 as the ones place meaning the monkey is willing to pay 3 bananas
 
  If you put it on the step method the first number is 15887950 and their price is 0 meaning they want to pay 0 bananas
 
- Goal --- We want the buyer to spend most amount to get the most bananas from the monkeys
+ Goal -- We want the buyer to spend most amount to get the most bananas from the monkeys
+      -- We can can only choose 1 sequence 
+      -- we will use a dictionary or map to find which 1 key or set of 4 numbers gets the most banananas amongst all 2500 monkeys
+      -- we hand in the final value that key gets
 
- Note -- since it's the one's there are 0 to 9 digits and chance can occur |+9| |-9| and 0 ways  18+1 = 19 
+ Note -- since it's the one's place there are 0 to 9 digits and chance can occur |+9| |-9| and 0 ways  18+1 = 19 
 
  For each line/buyer in the input.txt file
  1 we set up a list and generate the 2000 prices for each buyer
