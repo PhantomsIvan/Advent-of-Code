@@ -7,9 +7,9 @@
 #include <functional> //interactions without custom VectorHash CPP doesn't automatically process Hash 
 
 // Since we are using a Hash Set and Has Map
-//This VectHash provides a way to has the keys
+//This VectorHash Struct provides a way to hash the keys
 //For more information watch 9:23 https://youtu.be/KiB0vRi2wlc?si=YxRPVpnlrjIS93vK&t=564 
-//interesting note about const maps and necessity of "".at" syntaxt
+//interesting note about const maps and necessity of "".at" syntax
 struct VectorHash {
    std::size_t operator()(const std::vector<int>& v) const {
        std::size_t hash = 0;
